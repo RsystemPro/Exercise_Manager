@@ -106,6 +106,7 @@ export default function Timer_Component({ command = 'idle' }: props) {
             <Text style={styles.text}>:</Text>
             <TextInput value={mili} keyboardType="numeric" readOnly={true} ref={mili1} style={styles.text} />
         </View>
+
     )
 }
 
