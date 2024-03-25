@@ -10,6 +10,7 @@ let loading_circle_data = {
     loaded: 0
 }
 
+
 export type timerStatus = 'start' | 'pause' | 'restart' | 'idle' | 'edit'
 
 interface props {
