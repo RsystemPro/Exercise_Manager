@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Exercise Manager",
+    "slug": "exercise-manager",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/timerIcon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ec4156"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,18 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/timerIcon2.png",
+        "backgroundColor": "#ec4156"
       },
-      "package": "com.rsystempro.myapp"
+      "package": "com.rsystempro.exercise"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "36231f68-c58d-4d24-a9d5-1357c502b305"
+        "projectId": "89618cd7-909c-4d62-a17a-a2a0fa75fc0f"
       }
-    }
+    },
+    "owner": "rsystempro"
   }
 }
